@@ -1,0 +1,76 @@
+/* all text font: Roboto */
+/* note: there doesn't seem to be a Roboto font */
+* {
+    font-family: 'Roboto';
+}
+
+/* header, intro, footer: dark background */
+.header, .content-intro, .footer {
+    background-color: #1F2937;
+}
+
+/* header logo, intro title: white text */
+.header .logo, .content-intro .title {
+    color: #F9FAF8;
+}
+
+/* header logo: 24px */
+.header .logo {
+    font-size: 24px;
+}
+
+/* intro title: 48px, weight 900 */
+.content-intro .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* header links, intro subtext, info subtext: light gray text */
+.header .links a, .content-intro .subtext {
+    color: #E5E7EB;
+}
+
+/* header links: 18px */
+.header .links a {
+    font-size: 18px;
+}
+
+/* button color, call to action background: blue */
+button, .content-signup .box {
+    background-color: #3882F6;
+    /* round corners */
+    border-radius: 10px;
+}
+
+/* info header text: black, 36px, weight 900 */
+.content-info .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* info pictures: seems to have rounded corners and blue borders */
+.content-info img {
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+}
+
+/* quote background: light gray */
+.content-quote {
+    background-color: #E5E7EB
+}
+
+/* quote: black, 36px, light italic */
+.content-quote .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* quoter: nothing specified */
+.content-quote .quoter {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+}
