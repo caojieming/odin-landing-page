@@ -1,2 +1,2 @@
 # odin-landing-page
-Odin Project, Flexbox, Project 1
+A generic landing page stylized using CSS.
